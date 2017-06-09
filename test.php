@@ -15,6 +15,7 @@ $preflist = array('Tokyo' => '東京', 'Osaka' => '大阪');
 
 foreach ($preflist as $key => $value){
   print $key.'=>'.$value.'<br />';
+  echo "hello";
 }
 ?>
 </p>
